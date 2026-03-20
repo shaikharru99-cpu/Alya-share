@@ -106,7 +106,7 @@ async def start_command(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup([
                     [InlineKeyboardButton("•  ғᴏʀ ᴍᴏʀᴇ  •", callback_data='about')],
                     [InlineKeyboardButton("• sᴇᴛᴛɪɴɢs", callback_data='setting'),
-                     InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ •", url='https://t.me/DoraShin_hlo')],
+                     InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ •", url='https://t.me/OpArru')],
                 ])
         await message.reply_photo(
             photo = random.choice(PICS),
