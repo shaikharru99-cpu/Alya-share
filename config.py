@@ -28,8 +28,8 @@ SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "")
 PORT = os.environ.get("PORT", "5001")
 
 #Database --⚠️ REQUIRED--
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://sanji01:sanji01@sanjimongo02.zgs4i.mongodb.net/?retryWrites=true&w=AlyaFilesBot")
-DB_NAME = os.environ.get("DATABASE_NAME", "Alya_Files_Bot")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://ArruBhai:NVPavPk34HtQ6RW1@cluster0.hhlnxa9.mongodb.net/?appName=AliyaFilestoreRobot")
+DB_NAME = os.environ.get("DATABASE_NAME", "Aliya_File_storeRobot")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
